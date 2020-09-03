@@ -16,7 +16,10 @@ This is Python 3 Flask application with Angular front-end.
 ## Installing
 ### Prerequisites
 
-Python 3  installed standalone or as a part of [Conda](https://www.anaconda.com/products/individual).
+Installed software:
+* Python 3 - standalone or as a part of [Conda](https://www.anaconda.com/products/individual).
+* Node.js
+* Angular Cli
 
 ### Dependencies installation
 
@@ -26,17 +29,31 @@ Run from the project root folder:
 pip install -r requirements.txt
 ```
 
+## Building
+
+Build is made by Angular Cli.
+To build the project on Windows machine
+
+```
+cd front-end
+npm run-script buildWin
+```
+
+`buildWin` will create `dist folder in the project root `containing Flask and Angular front-end applications.
+
 ## Running
 ### Local machine
 
 To run locally on Linux machine:
 ```
+cd dist
 export FLASK_APP=application.py
 flask run
 ```
 
 To run locally on Windows machine:
 ```
+cd dist
 set FLASK_APP=application.py
 flask run
 ```

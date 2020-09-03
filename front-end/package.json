@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "buildWin": "ng build & cd ..\\dist & mkdir static & mkdir templates & move *.js static\\ & move *.html templates\\ ",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
