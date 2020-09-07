@@ -1,0 +1,14 @@
+#dragDrop {
+    display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+    border: dashed 1px #979797;
+    transition: border 2s;
+}
+
+
+#dragDrop.fileover {
+    border: dashed 3px #979797;
+}
+

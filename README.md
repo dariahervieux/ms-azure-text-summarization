@@ -58,8 +58,15 @@ set FLASK_APP=application.py
 flask run
 ```
 
+# Deploying on Azure
+To deploy/update you application run
+```
+cd dist
+az webapp up --name <your WebApp name>
+```
+
 # References
 
-For more information, please see the [Python on App Service quickstart](https://docs.microsoft.com/azure/app-service/containers/quickstart-python).
+* [Python on App Service quickstart](https://docs.microsoft.com/azure/app-service/containers/quickstart-python).
 
 
