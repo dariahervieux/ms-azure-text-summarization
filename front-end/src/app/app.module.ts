@@ -9,6 +9,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -18,10 +19,13 @@ import { MatCardModule } from '@angular/material/card';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
+
     MatButtonModule,
     MatIconModule,
     MatCardModule,
     MatToolbarModule,
+    
     FileUploadModule,
     BrowserAnimationsModule
   ],

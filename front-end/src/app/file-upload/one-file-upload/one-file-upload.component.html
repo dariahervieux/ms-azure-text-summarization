@@ -1,6 +1,6 @@
-<div id="dragDrop" appDragDrop (fileDropped)="onFileDropped($event)">
+<div id="dragDrop" appDragDrop (fileDropped)="fileBrowseHandler($event)">
   <input hidden type="file" #inputUpload id="inputUpload"
-  (change)="fileBrowseHandler($event.target.files)">
+         (change)="fileBrowseHandler($event.target.files)">
 	<h3>Drag and drop file here</h3>
 	<h3>or</h3>
 	

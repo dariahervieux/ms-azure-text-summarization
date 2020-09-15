@@ -29,6 +29,14 @@ Run from the project root folder:
 pip install -r requirements.txt
 ```
 
+### Configuration
+
+#### Computer Vision API configuration
+
+Create environment variables:
+* COMPUTER_VISION_SUBSCRIPTION_KEY - your computer vision subscription key,
+* COMPUTER_VISION_ENDPOINT - url of your computer vision resource
+
 ## Building
 
 Build is made by Angular Cli.
@@ -68,5 +76,6 @@ az webapp up --name <your WebApp name>
 # References
 
 * [Python on App Service quickstart](https://docs.microsoft.com/azure/app-service/containers/quickstart-python).
+* https://docs.microsoft.com/en-us/azure/cognitive-services/Computer-vision/quickstarts-sdk/client-library?pivots=programming-language-python
 
 

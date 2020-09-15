@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
 import { FileDragDropDirective } from './file-drag-drop.directive';
 import { OneFileUploadComponent } from './one-file-upload/one-file-upload.component';
+import { UploadService } from './upload.service';
 
 @NgModule({
   imports: [
